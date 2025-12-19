@@ -1,0 +1,9 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db
