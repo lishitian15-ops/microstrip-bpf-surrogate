@@ -24,11 +24,12 @@ Each row corresponds to one frequency sample of one design.
 Each row corresponds to one design (one geometry parameter combination).
 
 ## Metric definitions
-- `fc [GHz]`: at the midpoint of the frequency of `S21_dB` −3 dB passband: fc = (fL + fH)/2.
+- `fc [GHz]`: at the midpoint of the frequency of `S21_dB` −3 dB passband: `fc = (fL + fH)/2`.
 - `BW_3dB [GHz]`: bandwidth where `S21_dB >= (S21_peak - 3 dB)`, using the continuous passband region containing the peak
 - `S11min_inband [dB]`: minimum `S11_dB` within the -3 dB passband region
 
 ## Notes
 - Data is exported from HFSS terminal S-parameter reports and post-processed by Python scripts.
 - Units: geometry in `um`, frequency in `GHz`, S-parameters in `dB`.
+
 
